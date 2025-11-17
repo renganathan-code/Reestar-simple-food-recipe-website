@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-one{
+    background-color: black;
+    color: white;
+    margin: 35px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.navbar-one__desc{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.box__one{
+    border: solid black 3px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 310px;
+    height: 370px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.box__two{
+    border: solid black 3px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 310px;
+    height: 370px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.box__three{
+    border: solid black 3px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 310px;
+    height: 370px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.box__four{
+    border: solid black 3px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 310px;
+    height: 370px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.box__one--image,.box__two--image,.box__three--image,.box__four--image{
+    width: 300px;
+    height: 200px;
+    padding-top: 5px;
+}
+
+.box{
+    text-align: center;
+}
+
+.box__one h4,.box__two h4,.box__three h4,.box__four h4{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-two{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 35px;
+    padding: 10px;
+}
+
+.navbar-two__table{
+    display: inline-block;
+}
+
+.navbar-two__desc{
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+    padding-bottom:10px ;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar-two__title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box__one:hover,.box__two:hover,.box__three:hover,.box__four:hover{
+    transform: scale(1.05);
+}
